@@ -6,11 +6,11 @@
 }
 
 h3 {
-    padding: 10px;
+    padding-top: 10px;
 }
 
 p {
-    color: lightgrey;
+    color: #8A8A8A;
     font-size: large;
 }
 
@@ -21,7 +21,7 @@ li {
 
 a {
     text-decoration: none;  
-    color: grey;  
+    color: #8A8A8A;  
     font-size: 20px;
 }
 
@@ -49,6 +49,7 @@ header {
     background-image: url("../img/banner.jpg");
     background-size: cover;
     border-radius: 20px;
+    
 }
 
 .herotext {
@@ -73,7 +74,7 @@ header {
 }
 
 .up-text-little {
-    color: grey;
+    color: #8A8A8A;
     font-size: 20px;
 }
 
@@ -106,20 +107,20 @@ header {
     background-image: url("../img/img-1.jpg");
     border-radius: 15px;
     height: 200px;
-    width: 240px;
+    width: 250px;
 }
 .img-container-middle {
     background-image: url("../img/banner-2.jpg");
     border-radius: 15px;
     height: 200px;
-    width: 680px;
+    width: 720px;
     background-size: cover;
 }
 .img-container-right {
     background-image: url("../img/img-3.jpg");
     border-radius: 15px;
     height: 200px;
-    width: 240px;
+    width: 250px;
 }
 
 .container2 {
@@ -130,4 +131,7 @@ footer {
     height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #8A8A8A;
 }
