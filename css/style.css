@@ -5,18 +5,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    
-    height: 200px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+h3 {
+    padding: 10px;
 }
 
-.logo {
-    height: 80px;
-    padding-right: 20px;
-    border-right: 1px solid lightgrey;
-    margin-bottom: 50px;
+p {
+    color: lightgrey;
+    font-size: large;
 }
 
 li {
@@ -30,28 +25,44 @@ a {
     font-size: 20px;
 }
 
-.box-center {
-    
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+header {
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 80px;
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
+    margin-bottom: 50px;
+}
+
+.hero {
     height: 500px;
     margin-bottom: 20px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     border-radius: 20px;
- 
 }
 
-.herotext{
+.herotext {
     width: 800px;
     padding-top: 300px;
     padding-left: 50px;
 }
 
-.herotext-big{
+.herotext-big {
     color: white;
     font-size: 40px;
 }
 
-.herotext-little{
+.herotext-little {
     color: white;
     font-size: 25px;
 }
@@ -66,52 +77,56 @@ a {
     font-size: 20px;
 }
 
-.container {
-    max-width: 1280px;
-    margin: auto;
-}
-
-.box-center {
-    background-color: rgb(225, 214, 122);
-    height: 500px;
-    margin-bottom: 20px;
-}
-
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.up {
-    background-color: rgb(171, 207, 231);
+.up { 
     height: 150px;
+    padding-top: 30px;
     margin-bottom: 20px;
 }
 
-.col-left, .col-right {
-    background-color: rgb(171, 207, 231);
+.col-left, .col-right {  
     float: left;
     width: 20%;
     min-height: 600px;
 }
 
 .col-middle {
-    background-color: rgb(171, 207, 231);
     float: left;
     width: calc(60% - 40px);
     margin: auto 20px;
     min-height: 600px;
 }
 
-.container2 {
-    background-color: rgb(4, 132, 255);
-    padding-bottom: 20px;
+.img-container-left {
+    background-image: url("../img/img-1.jpg");
+    border-radius: 15px;
+    height: 200px;
+    width: 240px;
+}
+.img-container-middle {
+    background-image: url("../img/banner-2.jpg");
+    border-radius: 15px;
+    height: 200px;
+    width: 680px;
+    background-size: cover;
+}
+.img-container-right {
+    background-image: url("../img/img-3.jpg");
+    border-radius: 15px;
+    height: 200px;
+    width: 240px;
+}
 
+.container2 {
+    padding-bottom: 20px;
 }
 
 footer {
-    background-color: rgb(136, 1, 254);
     height: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
