@@ -2,13 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-color: rgb(229, 131, 230);
-    height: 100px;
+    
+    height: 200px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.logo {
+    height: 80px;
+    padding-right: 20px;
+    border-right: 1px solid lightgrey;
+    margin-bottom: 50px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;  
+    color: grey;  
+    font-size: 20px;
 }
 
 .container {
